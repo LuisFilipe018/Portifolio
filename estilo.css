@@ -1,5 +1,6 @@
 body {
     background-color: #0F172A;
+    margin: 0 auto;
 }
 .meu-menu {
     margin: 20px auto;
@@ -25,4 +26,40 @@ body {
 .meu-menu .nav-link.active {
     color: #FFFFFF !important;
     background-color: #2563EB !important;
+}
+
+.container.inicio {
+    display: flex;                   /* Equivalente ao d-flex */
+    flex-direction: column;          /* Começa em coluna (empilhado no celular) */
+    align-items: center;             /* Centraliza os itens no eixo cruzado */
+    justify-content: space-between;  /* Espaça os itens (texto de um lado, imagem do outro) */
+    min-height: calc(100vh - 80px);  /* Equivalente ao min-vh-100 (descontando o menu) */
+    gap: 3rem;                       /* Equivalente ao gap-5 (espaço entre os itens) */
+}
+
+/* A partir de telas médias (tablets e computadores), muda para lado a lado */
+@media (min-width: 768px) {
+    .container.inicio {
+        flex-direction: row;         /* Equivalente ao flex-md-row */
+    }
+}
+
+.container-code {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 6px solid #8B5CF6; /* Cor roxa igual ao exemplo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E293B; /* Fundo escuro dentro do círculo */
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.4); /* Efeito de brilho neon roxo */
+    overflow: hidden;
+}
+
+
+.code {
+    width: 80%;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
 }
