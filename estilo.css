@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .meu-menu {
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
     background-color: #1E293B;
@@ -21,16 +21,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 .meu-menu .nav-link {
     color: #94A3B8;
-    transition: color 0.3s ease;
+    border-radius: 20px;
+    padding: 6px 14px;
+    transition: all 0.3s ease;
 }
 
-.meu-menu .nav-link:hover {
-    color: #38BDF8;
-}
-
+/* Efeito Hover e Estado Ativo Fixo */
+.meu-menu .nav-link:hover,
 .meu-menu .nav-link.active {
     color: #FFFFFF !important;
-    background-color: #2563EB !important;
+    background-color: #334155 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .container.inicio {
@@ -72,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
     color: #ffffff;
     padding: 10px 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     font-size: 15px;
