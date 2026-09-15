@@ -74,10 +74,17 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    background-color: #1E293B;
     font-size: 15px;
     border-radius: 25px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     border: 1px solid #94A3B8;
-    background: linear-gradient(700deg, #CBD5E1, #1E293B);
+    background: linear-gradient(45deg, #CBD5E1, #1E293B);
+}
+
+.botao:hover {
+    background: linear-gradient(135deg, #475569, #334155);
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    border-color: #CBD5E1;
+    box-shadow: 0 6px 20px rgba(148, 163, 184, 0.2);
 }
