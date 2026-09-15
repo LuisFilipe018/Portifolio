@@ -1,0 +1,12 @@
+body {
+    background-color: #0F172A;
+}
+.nav.nav-pills {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    background-color: #F8FAFC;
+    font-size: 15px;
+    max-width: 500px;
+    border-radius: 25px;
+}
