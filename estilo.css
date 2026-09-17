@@ -103,7 +103,6 @@ span:hover {
     flex-direction: row;
     height: 45px;
     margin-left: 15px;
-
     filter: invert(1);
 }
 
@@ -128,7 +127,6 @@ span:hover {
 }
 
 .botao.saiba {
-    
     width: 150px;
     text-align: center;
     font-size: 20px;
@@ -139,16 +137,22 @@ span:hover {
 .card {
     color: #5adecb;
     background-color: #1E293B;
-    border-radius: 10px;
+    border: 1px solid #e9eef4;
+    border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin: 20px;
+    width: 320px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .btn {
     text-decoration: none;
-    margin: 4px;
+    margin: 8px;
     color: #e2e8f0;
     padding: 5px 15px;
     display: flex;
