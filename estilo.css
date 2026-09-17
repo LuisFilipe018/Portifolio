@@ -1,7 +1,11 @@
-body {
-    background-image: url('/img/bg.png');
-    /*background-color: #0F172A;*/
-    margin: 0 auto;
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #94A3B8;
+}
+
+.container.inicio {
+    
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -55,12 +59,20 @@ span:hover {
 }
 
 .container.inicio {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url('/img/bg.png');
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    min-height: calc(100vh - 80px);
-    gap: 3rem;
+    box-sizing: border-box;
+    min-height: 100vh;
 }
 
 @media (min-width: 768px) {
