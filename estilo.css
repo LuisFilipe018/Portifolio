@@ -105,7 +105,6 @@ section {
     flex-direction: row;
     height: 45px;
     margin-left: 15px;
-    filter: invert(1);
 }
 
 .botao {
