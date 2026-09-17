@@ -2,10 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #94A3B8;
-}
-
-.container.inicio {
-    
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -137,4 +134,27 @@ span:hover {
     font-size: 20px;
     margin-top: 20px;
     background: linear-gradient(45deg, #5adecb, #1E293B);
+}
+
+.card {
+    color: #5adecb;
+    background-color: #1E293B;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn {
+    text-decoration: none;
+    margin: 4px;
+    color: #e2e8f0;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #cbd5e18e, #1E293B);
 }
